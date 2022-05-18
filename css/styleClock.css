@@ -1,0 +1,234 @@
+body {
+    background-color: #32025e;
+    font-family: Titillium Web, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    letter-spacing: .025em
+}
+
+.logo__img {
+    max-height: 50px
+}
+
+.nav-link {
+    font-size: 1.25rem
+}
+
+.nav-link-outline {
+    transition: all .2s ease-out;
+    transition-duration: .15s;
+    border: 2px solid #35f0d0;
+    color: #55f1d7;
+    border-radius: 9999px
+}
+
+.nav-link-outline:hover {
+    background-color: transparent;
+    color: #fff
+}
+
+.space-x-8>:not([hidden])~:not([hidden]) {
+    margin-left: calc(2rem * 1)
+}
+
+.text-flashy {
+    background: linear-gradient(40deg, #ff62cc 10%, #f7fe0c 40%, #2af787 60%, #00f0d0 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    -webkit-animation: cycleBackgroundPos 6s steps(100) infinite;
+    animation: cycleBackgroundPos 6s steps(100) infinite
+}
+
+.intro__video--play--button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 8px 0 rgb(0 0 0/20%), 0 3px 4px 0 rgb(0 0 0/12%), 0 3px 3px 0 rgb(0 0 0/14%);
+    background: rgba(76, 36, 159, .8);
+    border-radius: 50%;
+    padding: 1rem;
+    height: 54px;
+    width: 54px;
+    transition: all .2s ease-out
+}
+
+.intro__video {
+    border: 0;
+    padding: 0
+}
+
+.intro__video:hover .intro__video--play--button {
+    background: rgba(53, 240, 208, .8)
+}
+
+.intro__video--play--icon {
+    margin-right: -6px;
+    height: 42px;
+    width: 35px
+}
+
+.intro__button {
+    transition: all .15s ease-out;
+    color: #4c249f;
+    border-radius: 9999px
+}
+
+.intro__button:hover {
+    transform: scale(1.02) translateY(-3px);
+    color: #4c249f
+}
+
+#videoIntro .modal-content {
+    background-color: transparent;
+    border: 0
+}
+
+.text-gray {
+    color: #9f82d7
+}
+
+.bg-card {
+    background-color: #371063;
+    border-radius: .5rem
+}
+
+.awarded__img {
+    width: 4rem
+}
+
+.partner__img {
+    max-height: 44px
+}
+
+.card__bg {
+    transition: all .2s ease-out;
+    background-color: #11686a;
+    border-radius: .5rem
+}
+
+.card__bg:hover {
+    background-color: #160244;
+    box-shadow: 0 10px 25px -1px rgb(0 0 0/10%), 0 10px 10px 5px rgb(0 0 0/4%);
+    transform: translateY(0) scale(1.05) translateX(0)
+}
+
+.card__bg-2 {
+    background-color: #371063;
+    border-radius: .75rem
+}
+
+.fs-small {
+    font-size: .875rem
+}
+
+.protocol__icon {
+    width: 2rem;
+    height: 2rem
+}
+
+.btn__outline {
+    transition: all .15s ease-out;
+    color: #35f0d0;
+    border: 2px solid #35f0d0;
+    border-radius: 99999px
+}
+
+.btn__outline:hover {
+    transform: scale(1.02) translateY(-3px);
+    background-color: #32025e;
+    color: #1ef7d6;
+    border-color: #1ef7d6
+}
+
+.bg__blue {
+    background-color: #2d0a5a
+}
+
+.bg__blue-2 {
+    background-color: #1c0943
+}
+
+#how_it_work {
+    background-image: url(../images/bg-how-art-waves.jpg);
+    background-position: 50%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.how-it-work__item {
+    background-color: #341762;
+    border-radius: .5rem
+}
+
+.support-by__img {
+    max-height: 44px;
+    height: 8rem
+}
+
+.social__icon {
+    height: 2rem
+}
+
+.involved {
+    background-image: linear-gradient(40deg, #4c249f 30%, #9c48ba) !important;
+    border-radius: .5rem
+}
+
+.involved__bg {
+    background-color: #2d0a5a
+}
+
+.involved__bg:hover {
+    background-color: #401c94
+}
+
+.social__img {
+    width: 1rem
+}
+
+.text-gray-2 {
+    color: #bbb2ce;
+    transition: all .15s ease-out
+}
+
+a.text-gray-2:hover {
+    color: #fff
+}
+
+#footer {
+    background-color: #0c021b
+}
+
+.footer__menu {
+    border-top: 1px solid #4c249f
+}
+
+.airdrop__input {
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-radius: 0
+}
+
+.airdrop__input:focus {
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    outline: none
+}
+
+@keyframes cycleBackgroundPos {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0 50%
+    }
+}
